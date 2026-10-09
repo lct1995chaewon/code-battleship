@@ -1,0 +1,10 @@
+#fleet-dialogue{position:absolute;z-index:6;top:62px;left:18px;width:min(390px,calc(100% - 36px));color:#e8fff8;background:#082d40f5;border:1px solid #70dec2;border-radius:14px;box-shadow:0 12px 32px #041e3855;transform-origin:bottom left;text-align:left}
+#fleet-dialogue::after{content:'';position:absolute;bottom:-9px;left:42px;width:16px;height:16px;background:#082d40;transform:rotate(45deg);border-right:1px solid #70dec2;border-bottom:1px solid #70dec2}
+.transmission-head{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 14px 0;font-size:14px;color:#95f1d6}
+.transmission-head button{padding:0;width:32px;height:32px;font-size:24px;line-height:1;background:transparent;border:0;color:#d7f5f0}
+.transmission-status{font-size:14px;padding:0 14px;color:#b1d2dd;line-height:1.5}
+.transmission-output{font:16px/1.7 Consolas,'Microsoft JhengHei',monospace;white-space:pre-wrap;overflow-wrap:anywhere;overflow:auto;max-height:104px;min-height:28px;margin:8px 14px;color:white}
+.transmission-foot{display:flex;align-items:center;justify-content:space-between;min-height:34px;padding:0 14px 8px;gap:8px;font-size:12px;color:#92b8c6}
+.transmission-foot button{font-size:12px;padding:3px 8px;background:#175568;color:#e0fff7;border-color:#5a9d9f}
+.transmission-accessible{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:pre-wrap}
+#fleet-dialogue[data-tone=error]{border-color:#efbb81}#fleet-dialogue[data-tone=error] .transmission-head{color:#ffcf9b}
